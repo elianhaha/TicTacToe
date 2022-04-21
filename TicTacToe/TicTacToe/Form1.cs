@@ -110,7 +110,7 @@ namespace TicTacToe
                 {
                     score++;
                     Oscore.Text = Convert.ToString(score);
-                    DialogResult dialogres = MessageBox.Show("Jancok", "YesNo", MessageBoxButtons.YesNo);
+                    DialogResult dialogres = MessageBox.Show("Are you sure", "YesNo", MessageBoxButtons.YesNo);
                     if(dialogres == DialogResult.Yes)
                     {
                         btn1(); btn2(); btn3(); btn4(); btn5(); btn6(); btn7(); btn8(); btn9();
